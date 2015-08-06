@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42256DFD1B73A30D0090C135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256DFC1B73A30D0090C135 /* AppDelegate.swift */; };
-		42256DFF1B73A30D0090C135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256DFE1B73A30D0090C135 /* ViewController.swift */; };
-		42256E021B73A30D0090C135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42256E001B73A30D0090C135 /* Main.storyboard */; };
 		42256E041B73A30D0090C135 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42256E031B73A30D0090C135 /* Images.xcassets */; };
-		42256E071B73A30D0090C135 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42256E051B73A30D0090C135 /* LaunchScreen.xib */; };
 		42256E131B73A30D0090C135 /* BattleShip_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256E121B73A30D0090C135 /* BattleShip_SwiftTests.swift */; };
+		42256E211B73A5A60090C135 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42256E1F1B73A5A60090C135 /* LaunchScreen.xib */; };
+		42256E221B73A5A60090C135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42256E201B73A5A60090C135 /* Main.storyboard */; };
+		42256E251B73A5BD0090C135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256E231B73A5BD0090C135 /* AppDelegate.swift */; };
+		42256E261B73A5BD0090C135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256E241B73A5BD0090C135 /* ViewController.swift */; };
+		42256E281B73A5F10090C135 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256E271B73A5F10090C135 /* Ship.swift */; };
+		42256E2C1B73A6370090C135 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256E2B1B73A6370090C135 /* DataManager.swift */; };
+		42256E2E1B73A6660090C135 /* ShipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42256E2D1B73A6660090C135 /* ShipButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +31,17 @@
 /* Begin PBXFileReference section */
 		42256DF71B73A30D0090C135 /* BattleShip_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleShip_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42256DFB1B73A30D0090C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42256DFC1B73A30D0090C135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42256DFE1B73A30D0090C135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		42256E011B73A30D0090C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42256E031B73A30D0090C135 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		42256E061B73A30D0090C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		42256E0C1B73A30D0090C135 /* BattleShip_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleShip_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42256E111B73A30D0090C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42256E121B73A30D0090C135 /* BattleShip_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShip_SwiftTests.swift; sourceTree = "<group>"; };
+		42256E1F1B73A5A60090C135 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Views/LaunchScreen.xib; sourceTree = "<group>"; };
+		42256E201B73A5A60090C135 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Views/Main.storyboard; sourceTree = "<group>"; };
+		42256E231B73A5BD0090C135 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Controllers/AppDelegate.swift; sourceTree = "<group>"; };
+		42256E241B73A5BD0090C135 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
+		42256E271B73A5F10090C135 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ship.swift; path = BattleShip_Swift/Models/Ship.swift; sourceTree = "<group>"; };
+		42256E2B1B73A6370090C135 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = BattleShip_Swift/Models/DataManager.swift; sourceTree = "<group>"; };
+		42256E2D1B73A6660090C135 /* ShipButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShipButton.swift; path = Views/ShipButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +83,10 @@
 		42256DF91B73A30D0090C135 /* BattleShip_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				42256DFC1B73A30D0090C135 /* AppDelegate.swift */,
-				42256DFE1B73A30D0090C135 /* ViewController.swift */,
-				42256E001B73A30D0090C135 /* Main.storyboard */,
+				42256E1C1B73A5060090C135 /* Models */,
+				42256E1D1B73A5130090C135 /* Views */,
+				42256E1E1B73A51A0090C135 /* Controllers */,
 				42256E031B73A30D0090C135 /* Images.xcassets */,
-				42256E051B73A30D0090C135 /* LaunchScreen.xib */,
 				42256DFA1B73A30D0090C135 /* Supporting Files */,
 			);
 			path = BattleShip_Swift;
@@ -110,6 +115,35 @@
 				42256E111B73A30D0090C135 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42256E1C1B73A5060090C135 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42256E271B73A5F10090C135 /* Ship.swift */,
+				42256E2B1B73A6370090C135 /* DataManager.swift */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		42256E1D1B73A5130090C135 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42256E1F1B73A5A60090C135 /* LaunchScreen.xib */,
+				42256E201B73A5A60090C135 /* Main.storyboard */,
+				42256E2D1B73A6660090C135 /* ShipButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		42256E1E1B73A51A0090C135 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42256E231B73A5BD0090C135 /* AppDelegate.swift */,
+				42256E241B73A5BD0090C135 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42256E021B73A30D0090C135 /* Main.storyboard in Resources */,
-				42256E071B73A30D0090C135 /* LaunchScreen.xib in Resources */,
+				42256E221B73A5A60090C135 /* Main.storyboard in Resources */,
+				42256E211B73A5A60090C135 /* LaunchScreen.xib in Resources */,
 				42256E041B73A30D0090C135 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42256DFF1B73A30D0090C135 /* ViewController.swift in Sources */,
-				42256DFD1B73A30D0090C135 /* AppDelegate.swift in Sources */,
+				42256E2E1B73A6660090C135 /* ShipButton.swift in Sources */,
+				42256E261B73A5BD0090C135 /* ViewController.swift in Sources */,
+				42256E2C1B73A6370090C135 /* DataManager.swift in Sources */,
+				42256E281B73A5F10090C135 /* Ship.swift in Sources */,
+				42256E251B73A5BD0090C135 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +271,6 @@
 			targetProxy = 42256E0D1B73A30D0090C135 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		42256E001B73A30D0090C135 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42256E011B73A30D0090C135 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42256E051B73A30D0090C135 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42256E061B73A30D0090C135 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42256E141B73A30D0090C135 /* Debug */ = {
@@ -342,9 +360,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BattleShip_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BattleShip_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
